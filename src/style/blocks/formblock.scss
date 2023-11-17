@@ -1,0 +1,41 @@
+.formblock {
+  &__container {
+    max-width: 1170px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+
+    @include onMobile {
+      padding: 0;
+    }
+  }
+
+  &__block {
+    border: 3px solid grey;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    width: 616px;
+    background-color: #e1dcdf;
+  }
+
+  &__img {
+
+    align-self: center;
+    margin-top: 38px;
+    height: 106px;
+    width: 106px;
+  }
+
+  &__title {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding: 10px 0;
+
+  }
+}

@@ -1,0 +1,47 @@
+.frame {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border: 1px solid #000;
+
+  &::before,
+  &::after,
+  .span::before,
+  .span::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 5px solid transparent;
+  }
+
+  &::before {
+    top: -20px;
+    left: -20px;
+    border-top: 5px solid $white_color;
+    border-left: 5px solid $white_color;
+  }
+
+  &::after {
+    bottom: -20px;
+    right: -20px;
+    border-bottom: 5px solid $white_color;
+    border-right: 5px solid $white_color;
+  }
+
+  .span::before {
+    top: -20px;
+    right: -20px;
+    border-top: 5px solid $white_color;
+    border-right: 5px solid $white_color;
+  }
+
+  .span::after {
+    bottom: -20px;
+    left: -20px;
+    border-bottom: 5px solid $white_color;
+    border-left: 5px solid $white_color;
+  }
+}

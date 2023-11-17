@@ -1,0 +1,81 @@
+.text {
+  font-size: 30px;
+  font-weight: 700;
+
+  @include onMobile {
+    font-size: 25px;
+  }
+
+  &__medium {
+    font-size: 25px;
+    font-weight: 700;
+    color: $grey_text_color;
+
+    @include onMobile {
+      font-size: 20px;
+    }
+  }
+
+  &__little {
+    color: $grey_text_color;
+    font-weight: 600;
+    font-size: 25px;
+
+    @include onMobile {
+      font-size: 20px;
+    }
+  }
+
+  &__small {
+    &--red {
+      font-weight: 600;
+      font-size: 25px;
+      color: red;
+
+      @include onMobile {
+        font-size: 18px;
+      }
+    }
+  }
+
+  &__big {
+    color: $grey_text_color;
+    &--red {
+      color: red;
+      font-weight: 700;
+      font-size: 28px;
+
+      @include onMobile {
+        font-size: 20px;
+      }
+    }
+  }
+
+  &__p {
+    color: #858585;
+    font-size: 19px;
+    font-weight: 400;
+
+    &--grey {
+      text-align: center;
+      padding-top: 5px;
+    }
+
+    &--blue {
+      text-align: center;
+      color: $blue_color;
+      font-weight: 700;
+    }
+  }
+
+  &__count {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    align-self: center;
+
+    @include onMobile {
+      font-size: 20px;
+    }
+  }
+}

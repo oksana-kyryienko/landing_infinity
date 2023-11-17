@@ -1,0 +1,23 @@
+@import './blocks/mixin';
+@import './utils/variables';
+@import './blocks/reset.scss';
+@import './blocks/text.scss';
+@import './blocks/page.scss';
+@import './blocks/header.scss';
+@import './blocks/text-block.scss';
+@import './blocks/frame.scss';
+@import './blocks/inform.scss';
+@import './blocks/testimonial.scss';
+@import './blocks/zagovor.scss';
+@import './blocks/form.scss';
+@import './blocks/count.scss';
+@import './blocks/formblock.scss';
+@import './blocks/modal.scss';
+
+
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 20px;
+}

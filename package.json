@@ -1,0 +1,20 @@
+{
+  "name": "landing_infinity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint",
+    "compile-sass": "sass src/style/input.scss src/style/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/oksana-kyryienko/landing_infinity",
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "sass": "^1.69.5"
+  }
+}
